@@ -4,9 +4,7 @@ USE Farmer_Joes;
 
 CREATE TABLE SUPPLIER (
     Supplier_ID INT PRIMARY KEY,
-    Company_Name VARCHAR(50),
-    Wholesale_Price DECIMAL(10,2),
-    Supplied_Products VARCHAR(100)
+    Company_Name VARCHAR(50)
 );
 CREATE TABLE PRODUCT (
     Product_ID INT PRIMARY KEY,
@@ -14,6 +12,7 @@ CREATE TABLE PRODUCT (
     Product_Name VARCHAR(50),
     Description VARCHAR(100),
     Retail_Price DECIMAL(10,2),
+    Wholesale_Price DECIMAL(10,2),
     Stock_Quantity INT,
     Exp_Date DATE,
     FOREIGN KEY (PSupplier_ID) REFERENCES SUPPLIER(Supplier_ID)
@@ -96,3 +95,5 @@ CREATE TABLE EMPLOYEE_CONTACT (
     EContact_Information VARCHAR(255),
     FOREIGN KEY (EEmployee_ID) REFERENCES EMPLOYEE (Employee_ID)
 );
+
+
