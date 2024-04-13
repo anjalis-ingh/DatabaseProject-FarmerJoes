@@ -2997,4 +2997,6 @@ VALUES
 (12995, 10035, "Pheasant Durian", "Relish in satisfaction in every bite.", 36.07, 74, "2026-06-18"),
 (12996, 10032, "Red king crab Bulgur", "Relish in flavor that everyone loves.", 53.8, 83, "2025-06-25"),
 (12997, 10034, "Nuttall cockle Pasta", "A taste of satisfaction that everyone loves.", 19.74, 64, "2026-08-02"),
-(12998, 10010, "Pie Northern pike", "Enjoy delight to satisfy your cravings.", 61.27, 73, "2026-12-21");
+(12998, 10010, "Pie Northern pike", "Enjoy delight to satisfy your cravings.", 61.27, 73, "2026-12-21"),
+(12999, 10032, "Savory Quinoa Salad", "A nutritious blend of quinoa and fresh vegetables, perfect for a healthy meal.", 8.99, 50, "2029-04-15"),
+(13000, 10033, "Crispy Onion Rings", "Golden and crispy onion rings, a delicious side dish or snack.", 3.50, 85, "2027-06-30");
