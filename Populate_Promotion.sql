@@ -1,4 +1,4 @@
-INSERT INTO PROMOTION (Promo_Product_ID, Promotion_ID, Discount_Amount, Start_Date, End_Date, Description)
+INSERT INTO PROMOTION (Promo_Product_ID, Promotion_ID, Discount_Amount, Start_Date, End_Date, Descriptions)
 VALUES
   (10001,10001,"1.84","2024-05-13","2024-08-22","ac libero nec ligula"),
   (10002,10002,"2.05","2024-05-20","2024-07-28","eget, volutpat ornare, facilisis eget,"),

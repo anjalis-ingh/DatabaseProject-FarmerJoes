@@ -10,12 +10,15 @@ CREATE TABLE PRODUCT (
     Product_ID INT PRIMARY KEY,
     PSupplier_ID INT,
     Product_Name VARCHAR(50),
-    Description VARCHAR(100),
+    Descriptions VARCHAR(100),
     Retail_Price DECIMAL(10,2),
     Stock_Quantity INT,
     Exp_Date DATE,
     FOREIGN KEY (PSupplier_ID) REFERENCES SUPPLIER(Supplier_ID)
 );
+
+ALTER TABLE PRODUCT DROP COLUMN Wholesale_Price;
+
 CREATE TABLE DEFAULT_ORDER (
     Order_ID INT PRIMARY KEY,
     Payment_Method VARCHAR(50),
@@ -51,7 +54,7 @@ CREATE TABLE PROMOTION (
     Discount_Amount DECIMAL(10,2),
     Start_Date DATE,
     End_Date DATE,
-    Description VARCHAR(100),
+    Descriptions VARCHAR(100),
     FOREIGN KEY (Promo_Product_ID) REFERENCES PRODUCT(Product_ID)
 );
 CREATE TABLE WHOLESALE_ORDER (
