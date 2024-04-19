@@ -12,7 +12,6 @@ CREATE TABLE PRODUCT (
     Product_Name VARCHAR(50),
     Description VARCHAR(100),
     Retail_Price DECIMAL(10,2),
-    Wholesale_Price DECIMAL(10,2),
     Stock_Quantity INT,
     Exp_Date DATE,
     FOREIGN KEY (PSupplier_ID) REFERENCES SUPPLIER(Supplier_ID)

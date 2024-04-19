@@ -1,4 +1,4 @@
-﻿REPLACE INTO WHOLESALE_ORDER (`WOrder_ID`, `WEmployee_ID`)   
+REPLACE INTO WHOLESALE_ORDER (WOrder_ID, WEmployee_ID)   
 VALUES
 (1,28),
 (2,90),

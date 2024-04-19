@@ -1,4 +1,4 @@
-INSERT INTO PRODUCT (Product_ID,PSupplier_ID, Product_Name, Description, Retail_Price, Stock_Quantity, Exp_Date)
+INSERT INTO PRODUCT (Product_ID, PSupplier_ID, Product_Name, Description, Retail_Price, Stock_Quantity, Exp_Date)
 VALUES
   (10001, 10001, "Wonder Bread White Bread", "Classic soft white bread, perfect for sandwiches and toasts.", 29.24, 81, "2028-04-07"),
   (10002, 10001, "Happy Cow Whole Milk", "Fresh whole milk providing natural taste and essential nutrients.", 18.71, 27, "2029-04-07"),
