@@ -36,6 +36,17 @@ JOIN product ON product.Product_ID = fulfills.PProduct_ID
 JOIN promotion ON promotion.Promo_Product_ID = fulfills.PProduct_ID
 WHERE fulfills.OOrder_ID = 1;
 
+-- Shows the average price of all the Retail_Prices
+SELECT AVG(Retail_Price) AS average_price
+FROM Product;
+
+-- Shows the average salary of all employees at Farmer Joes
+SELECT AVG(Salary) AS average_salary
+FROM Employee;
+
+
+
+
 -- 5) Shows the expiry date of of the products
 select * from product
 ORDER BY product.Exp_Date;
