@@ -25,7 +25,6 @@ CREATE TABLE DEFAULT_ORDER (
 CREATE TABLE CUSTOMER (
     Customer_ID INT PRIMARY KEY,
     Loyalty_Points INT,
-    Contact_Information VARCHAR(100),
     Fname VARCHAR(50),
     MName VARCHAR(50),
     LName VARCHAR(50)
