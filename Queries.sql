@@ -11,6 +11,19 @@ select * from Default_Order;
 select * from Customer;
 select * from fulfills;
 
+INSERT INTO updates
+SELECT p.Product_ID, e.Employee_ID
+FROM Product p, Employee e;
+
+
+select * from updates;
+
+REPLACE INTO customer_contact
+SELECT Customer_ID, Contact_Information
+FROM Customer;
+
+select * from customer_contact;
+
 -- 1) Show a count of the largest population: How many total products are there?
 SELECT COUNT(*) AS total_products
 FROM Product;
